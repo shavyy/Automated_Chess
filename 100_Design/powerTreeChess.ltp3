@@ -1,0 +1,341 @@
+<Vers> 3.6.8
+<Tabs> 1, #FFFDF5E6, New Tab 1
+<Summ> 535, 260, 24, #FF000000, #00FFFFFF
+<BPrt> Power, 2, 510, 140, Secteur
+	Color   : #00FFFFFF
+	Width   : 80
+	Height  : 60
+	VisType : 2
+	FontSize: 16
+<Term> Output, 1
+	Vout    : 230
+<BPrt> Converter, 3, 675, 140, P12V
+	Color   : #FF90EE90
+	Width   : 120
+	Height  : 60
+	VisType : 1
+<Term> Input, 1
+	VinMin  : 230
+	VinMax  : 230
+<Term> Output, 1
+	Vout    : 12
+<BPrt> Converter, 4, 995, 140, P5V
+	Color   : #FFFF8C00
+	Width   : 120
+	Height  : 60
+	VisType : 1
+<Term> Input, 1
+<Term> Output, 1
+	Vout    : 5
+	NomEff  : 80
+<BPrt> Converter, 5, 995, 630, P6V
+	Color   : #FFFF8C00
+	Width   : 120
+	Height  : 60
+	VisType : 1
+<Term> Input, 1
+	VinMin  : 10
+	VinMax  : 14
+<Term> Output, 1
+	Vout    : 6
+	NomEff  : 80
+<BPrt> Load, 12, 1320, 140, Arduino 2560
+	Color   : #FFDC143C
+	Width   : 80
+	Height  : 60
+	VisType : 2
+	FontSize: 12
+	FontColr: #FFF0F8FF
+<Term> Input, 1
+	Inom    : 200
+	InomU   : -3
+	Ipeak   : 751
+	IpeakU  : -3
+<BPrt> Load, 16, 1320, 280, LCD Screen
+	Color   : #FFDC143C
+	Width   : 80
+	Height  : 60
+	VisType : 2
+	FontSize: 12
+	FontColr: #FFF0F8FF
+<Term> Input, 1
+	Inom    : 25
+	InomU   : -3
+	Ipeak   : 50
+	IpeakU  : -3
+<BPrt> Load, 21, 1320, 630, S49E
+	Color   : #FFDC143C
+	Width   : 80
+	Height  : 60
+	VisType : 2
+	Comments: 64 sensors * 10mA
+	FontSize: 12
+	FontColr: #FFF0F8FF
+<Term> Input, 1
+	Inom    : 200
+	InomU   : -3
+	Ipeak   : 640
+	IpeakU  : -3
+<BPrt> Load, 22, 1320, 700, HC4067 
+	Color   : #FFDC143C
+	Width   : 80
+	Height  : 60
+	VisType : 2
+	Comments: 4MUX * 50mA
+	FontSize: 12
+	FontColr: #FFF0F8FF
+<Term> Input, 1
+	Inom    : 25
+	InomU   : -3
+	Ipeak   : 200
+	IpeakU  : -3
+<BPrt> Load, 27, 1320, 490, NEMA 17
+	Color   : #FFDC143C
+	Width   : 80
+	Height  : 60
+	VisType : 2
+	Comments: 2 moteurs
+	FontSize: 12
+	FontColr: #FFF0F8FF
+<Term> Input, 1
+	Inom    : 1600
+	InomU   : -3
+	Ipeak   : 1600
+	IpeakU  : -3
+<BPrt> Load, 28, 1320, 350, DRV8825
+	Color   : #FFDC143C
+	Width   : 80
+	Height  : 60
+	VisType : 2
+	Comments: 2 drivers
+	FontSize: 12
+	FontColr: #FFF0F8FF
+<Term> Input, 1
+	Inom    : 16
+	InomU   : -3
+	Ipeak   : 16
+	IpeakU  : -3
+<Term> Input, 2
+	Inom    : 160
+	InomU   : -3
+	Ipeak   : 160
+	IpeakU  : -3
+<BPrt> Load, 29, 1320, 560, Electro Magnet
+	Color   : #FFDC143C
+	Width   : 80
+	Height  : 60
+	VisType : 2
+	Comments: 4MUX * 50mA
+	FontSize: 12
+	FontColr: #FFF0F8FF
+<Term> Input, 1
+	Inom    : 250
+	InomU   : -3
+	Ipeak   : 250
+	IpeakU  : -3
+<BPrt> Load, 30, 1320, 420, L298N
+	Color   : #FFDC143C
+	Width   : 80
+	Height  : 60
+	VisType : 2
+	Comments: 4MUX * 50mA
+	FontSize: 12
+	FontColr: #FFF0F8FF
+<Term> Input, 1
+	Inom    : 106
+	InomU   : -3
+	Ipeak   : 106
+	IpeakU  : -3
+<Term> Input, 2
+	Inom    : 25
+	InomU   : -3
+	Ipeak   : 25
+	IpeakU  : -3
+	Title   : 
+<BPrt> Net, 31, 850, 130, P12V
+	Color   : #00FFFFFF
+	Width   : 60
+	Height  : 40
+<Term> Aux, 1
+<BPrt> Net, 32, 1185, 130, P5V
+	Color   : #00FFFFFF
+	Width   : 60
+	Height  : 40
+<Term> Aux, 1
+<BPrt> Net, 33, 1190, 620, P6V
+	Color   : #00FFFFFF
+	Width   : 60
+	Height  : 40
+<Term> Aux, 1
+<BPrt> Load, 46, 1320, 210, LED MATIX
+	Color   : #FFDC143C
+	Width   : 80
+	Height  : 60
+	VisType : 2
+	FontSize: 12
+	FontColr: #FFF0F8FF
+<Term> Input, 1
+	Inom    : 500
+	InomU   : -3
+	Ipeak   : 500
+	IpeakU  : -3
+<Symb> Rectangle, 0, 0, 0, 0,0, 0,0
+	Color   : #FF000000
+	Color2  : #00FFFFFF
+	Thicknss: 24
+<Wire> 7, 6
+	ZIndex  : -1
+	STermPID: 2
+	STermTyp: Output
+	STermNum: 1
+	ETermPID: 3
+	ETermTyp: Input
+	ETermNum: 1
+	Points  : (590,170)(675,170)
+<Wire> 9, 8
+	ZIndex  : -1
+	STermPID: 3
+	STermTyp: Output
+	STermNum: 1
+	EWires  : 11, 52
+	Points  : (795,170)(880,170)
+<Wire> 10, 8
+	ZIndex  : -1
+	STermPID: 5
+	STermTyp: Input
+	STermNum: 1
+	EWires  : 44, 45
+	Points  : (995,660)(880,660)(880,590)
+<Wire> 11, 8
+	ZIndex  : -1
+	ETermPID: 4
+	ETermTyp: Input
+	ETermNum: 1
+	SWires  : 9, 52
+	Points  : (880,170)(995,170)
+<Wire> 18, 17
+	ZIndex  : -1
+	STermPID: 4
+	STermTyp: Output
+	STermNum: 1
+	EWires  : 20, 48
+	Points  : (1115,170)(1215,170)
+<Wire> 19, 17
+	ZIndex  : -1
+	STermPID: 16
+	STermTyp: Input
+	STermNum: 1
+	EWires  : 47, 48
+	Points  : (1320,310)(1215,310)(1215,240)
+<Wire> 20, 17
+	ZIndex  : -1
+	ETermPID: 12
+	ETermTyp: Input
+	ETermNum: 1
+	SWires  : 18, 48
+	Points  : (1215,170)(1320,170)
+<Wire> 24, 23
+	ZIndex  : -1
+	STermPID: 5
+	STermTyp: Output
+	STermNum: 1
+	EWires  : 25, 26
+	Points  : (1115,660)(1220,660)
+<Wire> 25, 23
+	ZIndex  : -1
+	STermPID: 22
+	STermTyp: Input
+	STermNum: 1
+	EWires  : 24, 26
+	Points  : (1320,730)(1220,730)(1220,660)
+<Wire> 26, 23
+	ZIndex  : -1
+	ETermPID: 21
+	ETermTyp: Input
+	ETermNum: 1
+	SWires  : 25, 24
+	Points  : (1220,660)(1320,660)
+<Wire> 36, 8
+	ZIndex  : -1
+	STermPID: 28
+	STermTyp: Input
+	STermNum: 2
+	EWires  : 37, 54
+	Points  : (1320,395)(880,395)
+<Wire> 37, 8
+	ZIndex  : -1
+	SWires  : 36, 54
+	EWires  : 51, 52
+	Points  : (880,395)(880,365)
+<Wire> 40, 8
+	ZIndex  : -1
+	STermPID: 30
+	STermTyp: Input
+	STermNum: 2
+	EWires  : 41, 43
+	Points  : (1320,465)(880,465)
+<Wire> 41, 8
+	ZIndex  : -1
+	SWires  : 40, 43
+	EWires  : 53, 54
+	Points  : (880,465)(880,435)
+<Wire> 43, 8
+	ZIndex  : -1
+	SWires  : 45, 42
+	EWires  : 40, 41
+	Points  : (880,520)(880,465)
+<Wire> 44, 8
+	ZIndex  : -1
+	STermPID: 29
+	STermTyp: Input
+	STermNum: 1
+	EWires  : 10, 45
+	Points  : (1320,590)(880,590)
+<Wire> 47, 17
+	ZIndex  : -1
+	STermPID: 46
+	STermTyp: Input
+	STermNum: 1
+	EWires  : 48, 19
+	Points  : (1320,240)(1215,240)
+<Wire> 48, 17
+	ZIndex  : -1
+	SWires  : 47, 19
+	EWires  : 18, 20
+	Points  : (1215,240)(1215,170)
+<Wire> 42, 8
+	ZIndex  : -1
+	STermPID: 27
+	STermTyp: Input
+	STermNum: 1
+	EWires  : 43, 45
+	Points  : (1320,520)(880,520)
+<Wire> 45, 8
+	ZIndex  : -1
+	SWires  : 44, 10
+	EWires  : 43, 42
+	Points  : (880,590)(880,520)
+<Wire> 51, 8
+	ZIndex  : -1
+	STermPID: 28
+	STermTyp: Input
+	STermNum: 1
+	EWires  : 37, 52
+	Points  : (1320,365)(880,365)
+<Wire> 52, 8
+	ZIndex  : -1
+	SWires  : 51, 37
+	EWires  : 9, 11
+	Points  : (880,365)(880,170)
+<Wire> 53, 8
+	ZIndex  : -1
+	STermPID: 30
+	STermTyp: Input
+	STermNum: 1
+	EWires  : 41, 54
+	Points  : (1320,435)(880,435)
+<Wire> 54, 8
+	ZIndex  : -1
+	SWires  : 53, 41
+	EWires  : 36, 37
+	Points  : (880,435)(880,395)
